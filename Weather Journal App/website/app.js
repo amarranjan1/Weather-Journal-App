@@ -2,7 +2,7 @@
 const baseUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
 // Personal API Key for OpenWeatherMap API
-const apiKey = '856426a541a9979c084016c774c9f6c2&units=imperial';
+const apiKey = 'APIKEY&units=imperial';
 
 // Create a new date instance dynamically with JS
 let varData = new Date();
