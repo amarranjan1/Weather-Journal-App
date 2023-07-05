@@ -7,7 +7,8 @@ This is a simple web application that allows users to retrieve weather data from
 
 **GET Route II:** Client Side There is an asynchronous function in the app.js file to fetch the data from the app endpoint ('/all'). The retrieved data is then used to dynamically update the HTML elements on the client side.
 
-**POST Route** To add an entry to the project endpoint, a POST route is set up on the server side and executed on the client side as an asynchronous function. The client-side function takes two arguments: the URL to make a POST request to and an object holding the data to POST. The server-side function creates a new entry in the app's endpoint (projectData) using the data received from the client side POST.
+**POST Route** To add an entry to the project endpoint, a POST route is set up on the server side and executed on the client side as an asynchronous function![Image](https://github.com/amarranjan1/Weather-Journal-App/assets/35811614/97b31d85-bc05-40af-bac7-262794085edf)
+. The client-side function takes two arguments: the URL to make a POST request to and an object holding the data to POST. The server-side function creates a new entry in the app's endpoint (projectData) using the data received from the client side POST.
 
 Dynamic UI The HTML inputs and buttons are named for interaction, and their properties are assigned dynamically using Vanilla JavaScript.!
 
